@@ -1,0 +1,235 @@
+/*Css Section */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish',sans-serif;
+}
+
+/*Navigation Section */
+.fnav {
+    display: flex;
+     justify-content: space-between; 
+     align-items: center;
+     
+     
+    
+}
+.navbar{
+    margin-left: 200px;
+}
+
+/* On input section under Navigation Section */
+ .fnav input {
+    width: 300px;
+    height: 27px;
+    border-radius: 3px;
+    text-align: center;
+    margin-top: 5px;
+} 
+
+.fnav-items{
+    margin: 0px 20px;
+    display: inline;
+}
+
+/* On p tag under navigation section */
+.fnav p {
+    margin-top: 17px;
+    font-size: 17px;
+    padding-left: 40px;
+     cursor: pointer;
+    
+}
+
+/* Second navigation */
+.snav {
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    align-items: center;
+    font: weight 450px;
+}
+
+/* Second navigation on hover */
+.snav p:hover {
+    border-bottom: 2px solid rgb( 13, 13, 46);
+    color: rgb(11, 11, 53);
+    cursor: pointer;
+
+}
+
+/*Second navigation on img */
+.snav img {
+    width: 6%;
+
+}
+
+/* Lens section */
+.lens {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255); 
+    padding: 11px;
+    
+
+}
+
+/* On img in Lens Section */
+.lens img {
+    display: flex;
+    width: 21%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+/*On main section */
+.main img {
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+
+/* On cart and on card section */
+.Cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11px;
+    margin-bottom: 50px;
+}
+
+
+.Cart .Card {
+    text-align: center;
+}
+
+.Cart .Card img {
+    width: 70%;
+}
+
+.Card button {
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Card p {
+    font-size: 18px;
+    padding: 4px;
+}
+
+/* On banner class */
+.Banner h2 {
+    text-align: center;
+    padding:50px;
+    font-family: var(--font-default-medium);
+    letter-spacing: 0.5px;
+    font-size: 30px;
+}
+.banner{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.t-img{
+    display: flex;
+    margin-bottom: 20px;
+
+}
+.banner img{
+    width: 50%;
+    margin-bottom: 20px;
+    
+}
+
+
+.Banner .img img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Banner .two-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two-img img {
+    width: 50%;
+}
+
+/* Goggle section */
+.Goagle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Goagle img {
+    width: 30%;
+    padding: 33px;
+
+}
+
+
+
+
+/*Footer section */
+
+.end{
+
+    align-items: center;
+    background-color: #000042;
+    color: white;
+    padding: 3px;
+    padding-left: 6%;
+    padding-top: 3%;
+    padding-right:10%;
+    padding-bottom: 70px;
+    font-family:Arial, Helvetica, sans-serif;
+    font: weight 450px;
+    line-height: 1.5;
+
+  
+}
+
+
+
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000042;
+    color: white;
+    padding: 4px;
+    padding-bottom: 40px;
+}
+
+.Footer .list {
+    margin-left: 5%;
+}
+
+.Footer .list ul {
+    list-style: none;
+    cursor: pointer;
+}
+
+.Footer .list ul li {
+
+    padding: 10px;
+}
+
+.Footer .list img {
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+
+}
